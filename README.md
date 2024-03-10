@@ -9,3 +9,4 @@ Original script by Sorrow. Modified by me to include some fixes and improvements
 5. Start frida server.
 6. Start the frida agent: `frida -U -l agent.js -f com.apple.android.music`.
 7. Start downloading some albums: `go run main.go https://music.apple.com/us/album/whenever-you-need-somebody-2022-remaster/1624945511`.
+8. For dolby atmos: `go run main_atmos.go "https://music.apple.com/hk/album/%E5%91%A8%E6%9D%B0%E5%80%AB%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%B7%E4%B8%96%E7%95%8C%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%83/1721464851"`.

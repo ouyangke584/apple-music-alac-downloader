@@ -3,5 +3,5 @@
 !agent.js
 !go.mod
 !go.sum
-!main.go
+!main_atmos.go
 !README.md
