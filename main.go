@@ -1344,7 +1344,7 @@ func getToken() (string, error) {
 		return "", err
 	}
 
-	regex = regexp.MustCompile([A-Za-z0-9_-]{16,}\.[A-Za-z0-9_-]{16,}\.[A-Za-z0-9_-]{16,})
+	regex = regexp.MustCompile(`eyJ0([^"]*)`)
 	token := regex.FindString(string(body))
 
 	return token, nil
